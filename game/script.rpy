@@ -20,8 +20,7 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show fgl neutral tera
-
+    show fgl neutral
     # These display lines of dialogue.
 
     e "You've created a new Ren'Py game."

@@ -13,6 +13,8 @@ cache
 env
 .idea
 
+test.rpy
+
 log.txt
 errors.txt
 traceback.txt
