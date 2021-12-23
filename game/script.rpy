@@ -1,6 +1,2 @@
 ﻿label start:
-
-    call intro
-
-    # Game ends
-    return 
+    call arc_intro
