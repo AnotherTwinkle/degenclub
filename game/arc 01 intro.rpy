@@ -20,7 +20,7 @@ label .greets:
 
     "Hello"
     pause 1
-    play music 'audio/flx.opus'
+    play music 'audio/flx.ogg'
     show flx happy at left
     flx 'Welcome to the unfinished classroom.'
     return
