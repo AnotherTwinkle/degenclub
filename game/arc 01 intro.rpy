@@ -1,7 +1,5 @@
 # Brief- Flugel greets the player.
-# Characters used- fgl
-init python:
-    config.debug_sound = True
+# Characters used- fgl, flx
 
 label arc_intro:
     call .greets
@@ -19,9 +17,10 @@ label .greets:
     show fgl neutral
     show fgl at right with move
     pause .5
-    play music "audio/flx.mp3" fadeout 1
+
     "Hello"
     pause 1
+    play music 'audio/flx.opus'
     show flx happy at left
     flx 'Welcome to the unfinished classroom.'
     return
